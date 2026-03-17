@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TronLink - The ( Official ) TRON Wallet</title>
+    <meta name="description" content="TronLink is a TRON wallet that allows users to manage TRC20 tokens, access decentralized applications, and securely send and receive cryptocurrency directly from their browsers.">
+    <meta name="keywords" content="TronLink project, college assignment, TRON wallet, human-made website, blockchain tutorial">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 2px solid #00d4ff;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: #00d4ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 3rem;
+            padding: 1rem;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+        button {
+            background-color: #00d4ff;
+            color: #000;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0099cc;
+        }
+        input {
+            display: block;
+            margin: 0.5rem auto;
+            padding: 0.5rem;
+            width: 80%;
+            max-width: 300px;
+            border: 1px solid #00d4ff;
+            background-color: #0a0a0a;
+            color: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #1a1a1a;
+            color: #ccc;
+        }
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        figure {
+            text-align: center;
+        }
+        figcaption {
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+    </style>
+	<meta name="google-site-verification" content="PvlxUMTUNhxfgX0HX70nOP1wMG2VUIFhJBslV45dUnk" />
+</head>
+<body>
+    <header>
+        <h1>TronLink Wallet™ - Official TRON Wallet</h1>
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#send">Send</a>
+            <a href="#receive">Receive</a>
+            <a href="#about">About the Project</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="dashboard">
+            <h2>Wallet Dashboard</h2>
+            <p>Hey, welcome to my TronLink-inspired dashboard! This is where you'd check your TRX balance and manage your TRON tokens. I built this section to mimic how real wallets show your crypto holdings—super useful for keeping track of things without any hassle. Imagine logging in and seeing all your assets right here.</p>
+            <img src="images/Tronlink Logo.png" alt="Human-made drawing of a TRON wallet dashboard displaying balance and transaction history" width="600">
+            <p>Current Balance: 1000 TRX (just a demo number, of course!)</p>
+            <button onclick="alert('Wallet connected! This is a fun demo for my project.')">Connect Wallet</button>
+        </section>
+        
+        <section id="send">
+            <h2>Send TRX</h2>
+            <p>Sending TRX should be easy, right? I've set up a simple form so you can pretend to send tokens to a friend. It's all about making blockchain feel approachable. Just enter an address and amount—I've kept it straightforward to show how user-friendly wallets like TronLink can be.</p>
+            <form onsubmit="alert('Transaction simulated! Thanks for trying it out.'); return false;">
+                <input type="text" placeholder="Recipient Address (e.g., T123...)" required>
+                <input type="number" placeholder="Amount in TRX" required>
+                <button type="submit">Send Tokens</button>
+            </form>
+        </section>
+        
+        <section id="receive">
+            <h2>Receive TRX</h2>
+            <p>Getting paid in TRX? No problem! This section lets you share your wallet address or QR code. I created this to highlight how TronLink makes receiving crypto as simple as scanning a code. It's one of the coolest features for everyday users diving into the TRON world.</p>
+            <img src="images/Tronlink Image 1.jpg" alt="Hand-drawn and photographed QR code for receiving TRX, made by me for this project" width="200">
+            <p>Your Demo Address: TXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX (Use this in real TronLink for actual transactions!)</p>
+        </section>
+        
+        <section id="about">
+            <h2>About the Project</h2>
+            <p>TronLink is a versatile wallet and browser extension designed to enhance user interaction with the TRON blockchain. As an essential tool for both newcomers and experienced users, TronLink enables safe storage, management, and transfer of TRON-based tokens, streamlining the overall user experience in the decentralized ecosystem. Its user-friendly interface allows individuals to effortlessly access various decentralized applications (dApps) directly through the wallet, facilitating seamless transactions and interactions. Security is paramount in the cryptocurrency space, and TronLink addresses this with robust features, including secure private key management and transaction signing. Furthermore, the wallet provides users with easy access to DeFi platforms, games, and other dApps, making it a crucial component in the thriving TRON network. With ongoing updates and community-driven developments, TronLink continues to evolve, offering enhanced functionalities and ensuring that users remain at the forefront of blockchain innovation.</p>
+            <p>Why TronLink? It's fast, secure, and ties into dApps. For my project, I focused on the key features to show how it works. Plus, building it helped me understand blockchain better—super rewarding!</p>
+            <div class="image-grid">
+                <figure>
+                    <img src="images/Tronlink Image 2.jpg" alt="My hand-drawn dashboard illustration" width="300">
+                </figure>
+                <figure>
+                    <img src="images/Tronlink Image 3.jpg" alt="Photographed QR code I created" width="300">
+                </figure>
+            </div>
+            <p>TronLink is a comprehensive wallet and browser extension tailored for the TRON blockchain ecosystem. It allows users to securely store, manage, and transfer TRON-based tokens while providing seamless access to various decentralized applications (dApps). With its user-friendly interface, TronLink simplifies interactions within the TRON network, making it easy for both newcomers and experienced users to engage with DeFi platforms, games, and other dApps. The wallet prioritizes security, employing robust private key management and transaction signatures to protect user assets. As the TRON blockchain continues to grow, TronLink remains an essential tool, facilitating a smooth and efficient user experience in this dynamic environment.</p>
+        </section>
+    </main>
+    
+    <footer>
+    </footer>
+</body>
+</html>
